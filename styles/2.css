@@ -1,0 +1,144 @@
+.bootstrap-start{
+  color: white;
+  background-color: rgb(121, 82, 179);
+  border: none;
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  font-weight: bold;
+  transition: background-color 0.15s;
+}
+
+.bootstrap-start:hover{
+  background-color: purple;
+}
+
+.bootstrap-download{
+  color: rgb(108, 117, 125);
+  background-color: white;
+  border-color: rgb(108, 117, 125);
+  border-radius: 3px;
+  border-style: solid;
+  padding-top: 8px;
+  padding-left: 15px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  margin-left: 8px;
+  font-weight: bold;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.bootstrap-download:hover{
+  color: white;
+  background-color: rgb(108, 117, 125);
+}
+
+
+.linkedin-apply{
+  color: white;
+  background-color: rgb(10, 102, 194);
+  border: none;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: background-color 0.15s, ;
+}
+
+.linkedin-apply:hover{
+  background-color: rgb(6, 78, 150);
+}
+
+.linkedin-save{
+  color: rgb(10, 102, 194);
+  background-color: white;
+  border-color: rgb(10, 102, 194);
+  border-width: 1px;
+  border-style: solid;
+  padding-top: 9px;
+  padding-left: 15px;
+  padding-bottom: 9px;
+  padding-right: 15px;
+  border-radius: 30px;
+  margin-left: 13px;
+  font-weight: bold;
+}
+
+.linkedin-save:hover{
+  color: rgb(10, 102, 194);
+  background-color: rgb(144, 162, 180);
+  border-width: 2px; 
+}
+
+
+
+
+
+.amazon-link{
+  color: rgb(0, 113, 113);
+  transition: color 0.15s;
+}
+
+.amazon-link:hover{
+  color: chocolate;
+}
+
+.amazon-link:active{
+  color: chocolate;
+}
+
+.nike-text{
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.stock-text{
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+
+.fdt-text{
+  font-weight: bold;
+}
+
+.button-atc-text{
+  background-color: yellow;
+  height: 30px;
+  width: 120px;
+  border: none;
+  border-radius: 15px;
+  margin-right: 8px;
+  transition: background-color 0.15s, opacity 0.15s;
+  cursor: pointer;
+}
+
+.button-atc-text:hover{
+  background-color: rgb(255, 216, 20);
+}
+
+.button-atc-text:active{
+  opacity: 0.75;
+}
+
+.button-bn-text{
+  background-color: rgb(255, 153, 0);
+  height: 30px;
+  width: 120px;
+  border: none;
+  border-radius: 15px;
+  transition: background-color 0.15s, opacity 0.15s;
+  cursor: pointer;
+}
+
+.button-bn-text:active{
+  opacity: 0.75;
+}
+
+.button-bn-text:hover{
+  background-color: rgb(255, 123, 0);
+}

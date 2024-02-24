@@ -1,0 +1,62 @@
+body{
+  height: 200vh;
+}
+
+div{
+  height: 200px;
+  width: 100%;
+  border: 3px solid black;
+}
+
+.red{
+  background-color: brown;
+  position: sticky;
+  top: 100px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.child{
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+section{
+  height: 80vh;
+  border: 2px solid rgba(100, 10, 155, 0.4);
+}
+
+.first{
+  color: blue !important;
+}
+
+.sec{
+  color: palevioletred;
+}
+
+p{
+  color: lime;
+}
+
+#f{
+  color: gray;
+}
+
+#h.heading.first{
+  color: brown;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: lime;
+  border: 15px solid red;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;  
+  box-sizing: content-box;
+}
+

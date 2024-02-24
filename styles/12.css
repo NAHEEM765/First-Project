@@ -1,0 +1,170 @@
+.a{
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.b{
+  background-color: lightblue;
+  flex: 200px;
+}
+
+.c{
+    background-color: lightpink;
+    flex: 75px;
+}
+
+.d{
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.e{
+  background-color: brown;
+  flex: 50px;
+}
+
+.f{
+  background-color: aqua;
+  flex: 1;
+}
+
+.g{
+  background-color: brown;
+  flex: 75px;
+}
+
+.h{
+  display: flex;
+  border-style: solid;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.i{
+  background-color: lightsalmon;
+  border: 5px;
+  border-color: aqua;
+}
+
+.j{
+  display: flex;
+  border-width: 2px;
+  border-color: grey;
+  border-style: solid;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.k{
+  background-color: chartreuse;
+}
+
+.l{
+  font-family: Arial;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  max-width: 500px;
+  border-radius: 8px;
+}
+
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 6px 6px 6px;
+}
+
+.not{
+  background-color: blue;
+  color: white;
+  padding: 4px 14px 4px 14px;
+  border-radius: 16px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p{
+  font-family: Arial;
+}
+
+.m{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.n{
+  height: 90px;
+  width: 90px;
+  border-radius: 45px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.o{
+  width: 250px;
+}
+
+.p{
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.q{
+  color: rgb(128, 128, 128);
+  margin-bottom: 5px
+}
+
+.r{
+  color: grey;
+  font-size: 15px;
+}
+
+.s{
+  background-color: aqua;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 6px 12px 6px 12px;
+  cursor: pointer;
+}
+
+.bar{
+  display: flex;
+  font-family: Arial;
+  background-color: rgb(143, 9, 143);
+  width: 100%;
+  max-width: 700px;
+  padding: 10px 6px 10px 6px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hm{
+  font-weight: bold;
+  color: white;
+}
+
+.srch-bar{
+  width: 450px;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 16px 6px 16px;
+}
+
+.button{
+  padding: 6px 16px 6px 16px;
+  font-size: 14px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  background-color: rgb(143, 9, 143);
+}

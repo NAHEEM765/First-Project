@@ -1,0 +1,84 @@
+div{
+  background-color: red;
+  transition: background-color 300ms;
+  color: blue;
+  font-size: 6px;
+}
+
+div::after, div::before{
+  content: " I am currently 19 "
+}
+
+div:hover{
+  background-color: aqua;
+  background-size: cover;
+}
+
+button{
+  animation: float 800ms 4 alternate-reverse;
+  transition: button 200ms;
+  transform: translate(10px, 10px);
+  margin-bottom: 60px;
+}
+
+button:hover{
+  background-color: aqua;
+  color: brown;
+}
+
+button::after{
+  content: " sime";
+}
+
+@keyframes float{
+  0%{
+    transform: translateX(0);
+  }
+
+  100%{
+    transform: translateX(10px);
+  }
+}
+
+@media (max-width: 992px){
+  div{
+    font-size: 7px;
+  }
+}
+
+@media (max-width:768px){
+  div{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 576px){
+  div{
+    font-size: 16px;
+  }
+}
+
+.nav__link--active{
+  color: purple;
+  font-weight: bold;
+}
+
+.nav__link{
+  color: black;
+}
+
+.flx{
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flx:hover{
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

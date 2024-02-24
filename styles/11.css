@@ -1,0 +1,40 @@
+.grid{
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+
+.c-200{
+  background-color: lightblue;
+}
+
+.c-75{
+  background-color: honeydew;
+}
+
+.grid2{
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+}
+
+.c50{
+  background-color: aqua;
+}
+
+.cfr{
+  background-color: bisque;
+}
+
+.c75-2{
+  background-color: cadetblue;
+}
+
+.grid3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.rep{
+  background-color: rgb(78, 103, 104);
+}
